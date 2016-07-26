@@ -4,6 +4,7 @@ For this simple project I want to compare the accuracy of Random Forest, XGBoost
 
 ## Table of Contents
  - [Data Cleaning & EDA](https://github.com/gravity226/Model_Comparisons#data-cleaning--eda)
+ - [Classification](https://github.com/gravity226/Model_Comparisons#Classification)
 
 ### Data Cleaning & EDA
 
@@ -36,3 +37,17 @@ STD 0.00303149011482
 ```
 
 <img src="https://github.com/gravity226/Model_Comparisons/blob/master/imgs/line_chart.png" width="700" height="250" />
+
+Classifying the data... If the closing price in a tick moved more than 0.0001 cents then it was classified as a 1 or a -1 (moved up or moved down).  If it didn't move more than 0.0001 cents then it was classified as a 0 (no significant change).
+```
+Making classes (y values in modeling)
+1's 700
+-1's 693
+0's 655
+
+First half classes (training set)
+1's 355
+-1's 367
+0's 302
+```
+### Classification
