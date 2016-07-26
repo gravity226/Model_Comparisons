@@ -34,3 +34,5 @@ Max 1.11648
 Min 1.10146
 STD 0.00303149011482
 ```
+
+<img src="Model_Comparisons/imgs/line_chart.png" width="400" />
