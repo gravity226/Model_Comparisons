@@ -9,7 +9,7 @@ See [data_cleaning_eda.py](https://github.com/gravity226/Model_Comparisons/blob/
 
 Below are some of the initial metrics looked at from this dataset:
 
-```python
+```
 >> run data_cleaning_eda.py
 
 Open ------------
