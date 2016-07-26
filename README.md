@@ -5,4 +5,30 @@ For this simple project I want to compare the accuracy of Random Forest, XGBoost
 
 ##### Data Cleaning & EDA
 
-See (data_cleaning_eda.py)[www.google.com] for the code.
+See [data_cleaning_eda.py](https://github.com/gravity226/Model_Comparisons/blob/master/data_cleaning_eda.py) for the code.
+
+Below are some of the initial metrics looked at from this dataset:
+
+```python
+>> run data_cleaning_eda.py
+
+Open ------------
+Max 1.11648
+Min 1.10145
+STD 0.00303652916829
+
+High ------------
+Max 1.11861
+Min 1.10233
+STD 0.00303668942785
+
+Low ------------
+Max 1.11629
+Min 1.10023
+STD 0.00303981211749
+
+Close ------------
+Max 1.11648
+Min 1.10146
+STD 0.00303149011482
+```

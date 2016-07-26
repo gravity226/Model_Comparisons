@@ -52,6 +52,7 @@ def plot_timeseries(df):
     import matplotlib.pyplot as plt
 
     plt.plot(xrange(len(df['close'])), df['close'])
+    plt.savefig('line_chart.png')
     plt.show()
 
 if __name__ == '__main__':
