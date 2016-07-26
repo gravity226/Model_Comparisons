@@ -52,13 +52,13 @@ def plot_timeseries(df):
     import matplotlib.pyplot as plt
 
     plt.plot(xrange(len(df['close'])), df['close'])
-    plt.savefig('line_chart.png')
+    plt.savefig('imgs/line_chart.png')
     plt.show()
 
 if __name__ == '__main__':
     df = get_data()
-    # get_metrics(df)
-    # plot_timeseries(df)
+    get_metrics(df)
+    plot_timeseries(df)
 
 
 
