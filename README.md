@@ -35,4 +35,4 @@ Min 1.10146
 STD 0.00303149011482
 ```
 
-<img src="https://github.com/gravity226/Model_Comparisons/blob/master/imgs/line_chart.png" width="600" height="250" />
+<img src="https://github.com/gravity226/Model_Comparisons/blob/master/imgs/line_chart.png" width="700" height="250" />
