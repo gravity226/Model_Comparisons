@@ -4,7 +4,7 @@ For this simple project I want to compare the accuracy of Random Forest, XGBoost
 
 ## Table of Contents
  - [Data Cleaning & EDA](https://github.com/gravity226/Model_Comparisons#data-cleaning--eda)
- - [Classification](https://github.com/gravity226/Model_Comparisons#Classification)
+ - [Classification](https://github.com/gravity226/Model_Comparisons#random-forest-classification)
 
 ### Data Cleaning & EDA
 
@@ -50,4 +50,8 @@ First half classes (training set)
 -1's 367
 0's 302
 ```
-### Classification
+### Random Forest Classification
+
+Starting out I wanted to see how the model would preform when given one data point at a time and then predicting the data point.  Something interesting happens when I do this. From about tick 30 to tick 290 I am getting over %40 accuracy.  
+
+<img src="https://github.com/gravity226/Model_Comparisons/blob/master/imgs/rf_validation_from_zero.png" width="700" height="250" />
