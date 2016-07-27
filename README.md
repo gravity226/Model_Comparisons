@@ -54,4 +54,4 @@ First half classes (training set)
 
 Starting out I wanted to see how the model would preform when given one data point at a time and then predicting the next data point.  Something interesting happens when I do this. From about tick 30 to tick 290 I am getting over %40 accuracy.  
 
-<img src="https://github.com/gravity226/Model_Comparisons/blob/master/imgs/rf_validation_acc_from_zero.png" width="700" height="250" />
+<img src="https://github.com/gravity226/Model_Comparisons/blob/master/imgs/rf_validation_acc_from_zero.png" width="900" height="300" />
